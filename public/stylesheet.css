@@ -8,6 +8,19 @@
     --secondary: #0d1452;
 }
 
+/* Reset */
+
+p {
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
 /* ---Base styles--- */
 
 html, body {
@@ -18,33 +31,29 @@ html, body {
 /* Header */
 
 header {
+    display: flex;
+    flex-direction: row;
     width: 100%;
     background-color: #333;
     padding: 16px;
     border-bottom: 1px solid #555;
 }
 
+.header-title {
+    flex-grow: 1;
+}
+
 nav{
     margin-top: 8px;
 }
 
-a {
-    text-decoration: none;
-}
-
-a:hover {
+.header-title>a {
     color: white;
-    transition-duration: 100ms;
-}
-
-p {
-    line-height: 24px;
-    margin-bottom: 16px;
+    text-decoration: none;
 }
 
 a.header-button {
     color: red;
-    
     border: 1px solid red;
     border-radius: 8px;
     padding: 4px 8px 4px 8px;
@@ -56,7 +65,6 @@ a.header-button:hover {
     background-color: red;
     transition-duration: 500ms;
 }
-
 
 /* Body */
 
