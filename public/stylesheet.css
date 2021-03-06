@@ -123,12 +123,16 @@ header {
 
 .container-left {
     margin: 32px;
-    margin-left: 10vw;
+    margin-left: 7.5vw;
 }
 
 .box-right > p{
     padding-top: 64px;
     line-height: 175%;
+}
+
+.box-right {
+    width: 40vw;
 }
 
 .box {
@@ -158,4 +162,8 @@ h1 {
 .flex-row {
     display: flex;
     flex-direction: row;
+}
+
+.footer-col {
+    padding-top: 16px;
 }
