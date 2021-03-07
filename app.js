@@ -38,7 +38,7 @@ app.get("*", checkUser);                            // Get user info
 
 // Routing
 app.use("/", routes);
-app.use("/", authRoutes);
+//app.use("/", authRoutes);
 
 // Return a 404 page
 app.use((req, res) => {
