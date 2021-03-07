@@ -4,8 +4,8 @@
 
 /* ---Variables--- */
 :root {
-  --primary: #ebaf0b;
-  --secondary: #0d1452;
+  /*--primary: #ebaf0b;
+  --secondary: #0d1452;*/
 }
 
 /* Reset */
@@ -21,10 +21,11 @@ a {
 
 /* ---Base styles--- */
 
-html, body {
+html,
+body {
   background-color: white;
   color: black;
-  margin: 0px;
+  margin: 0;
   font-family: 'Baloo Chettan 2', cursive;
 }
 
@@ -32,17 +33,18 @@ html, body {
 
 header {
   background-color: #333;
+  /* height: 100vh */
 }
 
 .header-title {
   flex-grow: 1;
 }
 
-nav{
+nav {
   margin-top: 8px;
 }
 
-.header-title>a {
+.header-title > a {
   color: white;
   text-decoration: none;
 }
@@ -65,7 +67,7 @@ a.header-button:hover {
 
 .container {
   padding: 16px;
-  margin: 0px 15vw 0px 15vw;
+  margin: 0 15vw 0 15vw;
 }
 
 /* Footer */
@@ -104,10 +106,6 @@ footer {
   transition-duration: 500ms;
 }
 
-header {
-  /*height: 100vh;*/
-}
-
 .header-bar {
   padding: 16px;
   border-bottom: 1px solid #555;
@@ -144,10 +142,7 @@ header {
   padding: 16px;
   color: white;
   min-width: 30vw;
-
-
-
-  height: 50vh;
+  min-height: 50vh;
 }
 
 .games-carousel {
