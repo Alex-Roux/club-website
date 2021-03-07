@@ -1,176 +1,176 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');                /* Fira Sans */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');  /* Fira Sans */
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&display=swap'); /* Baloo Chettan 2 */
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');                    /* Rubik */
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');  /* Rubik */
 
 /* ---Variables--- */
 :root {
-    --primary: #ebaf0b;
-    --secondary: #0d1452;
+  --primary: #ebaf0b;
+  --secondary: #0d1452;
 }
 
 /* Reset */
 
 p {
-    line-height: 24px;
-    margin-bottom: 16px;
+  line-height: 24px;
+  margin-bottom: 16px;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* ---Base styles--- */
 
 html, body {
-    background-color: white;
-    color: black;
-    margin: 0px;
-    font-family: 'Baloo Chettan 2', cursive;
+  background-color: white;
+  color: black;
+  margin: 0px;
+  font-family: 'Baloo Chettan 2', cursive;
 }
 
 /* Header */
 
 header {
-    background-color: #333;
+  background-color: #333;
 }
 
 .header-title {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
 nav{
-    margin-top: 8px;
+  margin-top: 8px;
 }
 
 .header-title>a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 a.header-button {
-    color: red;
-    border: 1px solid red;
-    border-radius: 8px;
-    padding: 4px 8px 4px 8px;
-    margin-right: 8px;
+  color: red;
+  border: 1px solid red;
+  border-radius: 8px;
+  padding: 4px 8px 4px 8px;
+  margin-right: 8px;
 }
 
 a.header-button:hover {
-    color: white;
-    background-color: red;
-    transition-duration: 500ms;
+  color: white;
+  background-color: red;
+  transition-duration: 500ms;
 }
 
 /* Body */
 
 .container {
-    padding: 16px;
-    margin: 0px 15vw 0px 15vw;
+  padding: 16px;
+  margin: 0px 15vw 0px 15vw;
 }
 
 /* Footer */
 
 footer {
-    justify-content: space-around;
-    background-color: #333;
-    padding: 16px;
-    border-top: 1px solid #555;
-    min-height: 25vh;
-    color: white;
+  justify-content: space-around;
+  background-color: #333;
+  padding: 16px;
+  border-top: 1px solid #555;
+  min-height: 25vh;
+  color: white;
 }
 
 .carousel-title {
-    font-size: 48px;
-    font-weight: bolder;
-    text-align: center;
+  font-size: 48px;
+  font-weight: bolder;
+  text-align: center;
 }
 
 .carousel {
-    justify-content: space-evenly;
-    align-items: center;
-    margin-bottom: 32px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 32px;
 }
 
 .carousel-element > img {
-    width: 15vw;
+  width: 15vw;
 }
 
 .carousel-element {
-    transition-duration: 250ms;
+  transition-duration: 250ms;
 }
 
 .carousel-element:hover > img {
-    filter: blur(3px);
-    transition-duration: 500ms;
+  filter: blur(3px);
+  transition-duration: 500ms;
 }
 
 header {
-    /*height: 100vh;*/
+  /*height: 100vh;*/
 }
 
 .header-bar {
-    padding: 16px;
-    border-bottom: 1px solid #555;
+  padding: 16px;
+  border-bottom: 1px solid #555;
 }
 
 .header-video-container {
-    position: fixed;
-    z-index: -1;
-    background-color: red;
-    height: 100vh;
-    right: 0;
+  position: fixed;
+  z-index: -1;
+  background-color: red;
+  height: 100vh;
+  right: 0;
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
 }
 
 .container-left {
-    margin: 32px;
-    margin-left: 7.5vw;
+  margin: 32px;
+  margin-left: 7.5vw;
 }
 
 .box-right > p{
-    padding-top: 64px;
-    line-height: 175%;
+  padding-top: 64px;
+  line-height: 175%;
 }
 
 .box-right {
-    width: 40vw;
+  width: 40vw;
 }
 
 .box {
-    border: 1px solid grey;
-    background-color: #111;
-    padding: 16px;
-    color: white;
-    min-width: 30vw;
+  border: 1px solid grey;
+  background-color: #111;
+  padding: 16px;
+  color: white;
+  min-width: 30vw;
 
 
 
-    height: 50vh;
+  height: 50vh;
 }
 
 .games-carousel {
-    padding-top: 32px;
+  padding-top: 32px;
 }
 
 h1 {
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 .uc {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .flex-row {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .footer-col {
-    padding-top: 16px;
+  padding-top: 16px;
 }
 
 .section-title {
-    /*margin-left: 30vw;*/
+  /*margin-left: 30vw;*/
 }
