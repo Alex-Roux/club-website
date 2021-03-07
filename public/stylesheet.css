@@ -24,6 +24,8 @@ a {
 html, body {
     background-color: white;
     color: black;
+    margin: 0px;
+    font-family: 'Baloo Chettan 2', cursive;
 }
 
 /* Header */
@@ -63,6 +65,7 @@ a.header-button:hover {
 
 .container {
     padding: 16px;
+    margin: 0px 15vw 0px 15vw;
 }
 
 /* Footer */
@@ -82,7 +85,7 @@ footer {
     text-align: center;
 }
 
-.carousel-container {
+.carousel {
     justify-content: space-evenly;
     align-items: center;
     margin-bottom: 32px;
@@ -96,9 +99,9 @@ footer {
     transition-duration: 250ms;
 }
 
-.carousel-element:hover {
-    opacity: 0.5;
-    transition-duration: 250ms;
+.carousel-element:hover > img {
+    filter: blur(3px);
+    transition-duration: 500ms;
 }
 
 header {
@@ -166,4 +169,8 @@ h1 {
 
 .footer-col {
     padding-top: 16px;
+}
+
+.section-title {
+    /*margin-left: 30vw;*/
 }
