@@ -11,15 +11,13 @@ const mainPage3 = (req, res) => {
     res.render("page3", { title: "Page 2"});
 };
 
-const mainPage4 = (req, res) => {
-    res.render("page4", { title: "Page 2"});
+const contactPage = (req, res) => {
+    res.render("contact", { title: "Contact"});
 };
-
-
 
 module.exports = {
     mainIndex,
     mainPage2,
     mainPage3,
-    mainPage4
+    contactPage
 };
