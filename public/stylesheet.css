@@ -4,8 +4,8 @@
 
 /* ---Variables--- */
 :root {
-  /*--primary: #ebaf0b;
-  --secondary: #0d1452;*/
+  /* --primary: #ebaf0b;
+  --secondary: #0d1452; */
 }
 
 /* Reset */
@@ -33,6 +33,7 @@ body {
 
 header {
   background-color: #333;
+
   /* height: 100vh */
 }
 
@@ -127,7 +128,7 @@ footer {
   margin-left: 7.5vw;
 }
 
-.box-right > p{
+.box-right > p {
   padding-top: 64px;
   line-height: 175%;
 }
@@ -167,5 +168,5 @@ h1 {
 }
 
 .section-title {
-  /*margin-left: 30vw;*/
+  /* margin-left: 30vw; */
 }
