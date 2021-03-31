@@ -22,6 +22,7 @@ a {
 }
 
 h1 {
+  margin-top: 0.5em;
   margin-bottom: 0.8em;
 }
 
@@ -38,7 +39,7 @@ header {
 
 .navbar {
   padding: 16px;
-  border-bottom: 1px solid #555;
+  border-bottom: 1px solid var(--primary);
 }
 
 /* TODO: Replace with an image */
@@ -53,8 +54,8 @@ header {
 a.header-button {
   color: white;
   text-decoration: none;
-  color: red;
-  border: 1px solid red;
+  color: var(--primary);
+  border: 1px solid var(--primary);
   border-radius: 8px;
   padding: 4px 8px 4px 8px;
   margin-right: 8px;
@@ -62,7 +63,7 @@ a.header-button {
 
 a.header-button:hover {
   color: white;
-  background-color: red;
+  background-color: var(--primary);
   transition: cubic-bezier(.08,.57,.44,1) 500ms;
 }
 
