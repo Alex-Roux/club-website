@@ -30,7 +30,7 @@ h1 {
 /** Header */
 
 header {
-  background-color: var(--grey-1);
+  background-color: #333;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -107,7 +107,6 @@ a.header-button:hover {
   margin: 16px 15vw 16px 15vw;
   text-align: justify;
   text-justify: inter-word;
-  max-width: 1230px;
 }
 
 /** Featurette */
@@ -220,7 +219,7 @@ footer {
   }
 
   .carousel-element > a > img {
-    width: 20vw;
+      width: 20vw;
   }
 
   footer {
@@ -236,7 +235,7 @@ footer {
   }
 
   .carousel-element > a > img {
-    width: 15vw;
+      width: 15vw;
   }
 
   .carousel-element {
@@ -248,41 +247,35 @@ footer {
   }
 
   .featurette-row {
-    flex-direction: row;
+	flex-direction: row;
   }
 
   .featurette-in {
-    min-width: 30vw;
-    min-height: 50vh;
+	min-width: 30vw;
+	min-height: 50vh;
   }
 
   .featurette-left.featurette-out {
-    margin-left: 15vw;
-  }
+  margin-left: 15vw;
+}
 
-  .featurette-right.featurette-out {
-    margin-right: 15vw;
-  }
+.featurette-right.featurette-out {
+  margin-right: 15vw;
+}
 }
 
 /* XLarge devices */
 
-@media only screen and (min-width : 1400px) {
+@media only screen and (min-width : 1200px) {
 
-  .featurette-in {
-    min-width: 30vw;
-    min-height: 50vh;
-  }
+
 
 }
 
 /* XXLarge devices */
 
-@media only screen and (min-width : 2000px) {
+@media only screen and (min-width : 1400px) {
 
-  .featurette-in {
-    min-width: 20vw;
-    min-height: 50vh;
-  }
+
 
 }
