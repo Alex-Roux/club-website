@@ -18,14 +18,13 @@ app.set("view engine", "ejs");
 app.set("views", "htdocs");
 
 // MongoDB
-mongoose.connect(utils.config.dbURI, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true }) // Connect to the database
+/*mongoose.connect(utils.config.dbURI, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true }) // Connect to the database
 .then(() => {
-    utils.log("Connected to MongoDB.".success, 1);
     utils.server = app.listen(20000); // Create the server object and listen for requests
-    utils.log("Listening.".info, 1);
+    /*utils.log("Listening.".info, 1);
 }).catch((err) => {
     utils.log(err, 1);
-});
+});*/
 
 // Middlewares
 app.use(requestLogger);                             // Logger middleware
@@ -34,7 +33,7 @@ app.use(express.static("public"));                  // Give access to the public
 app.use(express.urlencoded({ extended: true }));    // urlencoded payloads
 app.use(express.json());                            // Use express.json to handle requests
 app.use(cookieParser());                            // Use cookie-parser to handle cookies
-app.get("*", checkUser);                            // Get user info
+//app.get("*", checkUser);                            // Get user info
 
 // Routing
 app.use("/", routes);
