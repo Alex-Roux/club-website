@@ -20,6 +20,7 @@ app.set("views", "htdocs");
 // MongoDB
 /*mongoose.connect(utils.config.dbURI, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true }) // Connect to the database
 .then(() => {
+    utils.log("Connected to MongoDB.".success, 1);*/
     utils.server = app.listen(20000); // Create the server object and listen for requests
     /*utils.log("Listening.".info, 1);
 }).catch((err) => {
