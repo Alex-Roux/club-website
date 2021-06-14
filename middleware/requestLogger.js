@@ -4,7 +4,7 @@ const colors = require("colors");
 // RequestLogger
 // Logs informations about the request
 const requestLogger = function(req, res, next) {
-    
+
     let reqTime = new Date().getTime();
     let reqUrl = req.url, logString;
     let isResource = false;
@@ -24,7 +24,7 @@ const requestLogger = function(req, res, next) {
 
     res.on("finish", function() {
         reqTime = new Date().getTime() - reqTime;
-        if(reqTime >= 100) {
+        if(reqTime >= 500) {
             utils.log("Processed in ".grey + colors.green(reqTime) + " ms".grey, 1);
         }
     });
