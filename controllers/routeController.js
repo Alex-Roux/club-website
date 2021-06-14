@@ -1,6 +1,6 @@
 // Pages
 const mainIndex = (req, res) => {
-    res.render("index", { title: "Home"});
+    res.render("index", { title: "Accueil"});
 };
 
 const mainTeams = (req, res) => {
@@ -12,10 +12,6 @@ const teamApex = (req, res) => {
 };
 
 const teamValorant = (req, res) => {
-    res.render("teams/apex", { title: "Équipe Apex Legends"});
-};
-
-const teamTroisieme = (req, res) => {
     res.render("teams/apex", { title: "Équipe Apex Legends"});
 };
 
@@ -32,7 +28,6 @@ module.exports = {
     mainTeams,
     teamApex,
     teamValorant,
-    teamTroisieme,
     mainEvents,
     contactPage
 };
