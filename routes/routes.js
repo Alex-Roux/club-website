@@ -7,9 +7,8 @@ const controller = require("../controllers/routeController");
 router.get("/",      controller.mainIndex);
 router.get("/teams", controller.mainTeams);
 
-router.get("/teams/apex", controller.teamsApex);
-router.get("/teams/valorant", controller.teamsValorant);
-router.get("/teams/troisieme", controller.teamsTroisieme);
+router.get("/teams/apex", controller.teamApex);
+router.get("/teams/valorant", controller.teamValorant);
 
 router.get("/events", controller.mainEvents);
 router.get("/contact", /*requireAuth, */controller.contactPage);
